@@ -44,11 +44,12 @@ const NavBarAndContent = () => {
           Features
         </a>
         <a
-          href="#getStarted"
+          href="https://github.com/oslabs-beta/Asclepius"
+          target="_blank"
+          rel="noopener noreferrer"
           className="toolbarText"
-          onClick={() => scrollToSection("getStartedDiv")}
         >
-          Get Started
+          Asclepius Github Repo
         </a>
         <a
           href="#team"
