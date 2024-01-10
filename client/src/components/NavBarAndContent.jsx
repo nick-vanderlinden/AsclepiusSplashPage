@@ -91,8 +91,8 @@ const NavBarAndContent = () => {
             <div>
               <h2 className="feature-header-text">View Cluster Health</h2>
               <p className="contentText">
-                Visualize your cluster's node health at a glance; with intuitive
-                color coding on a dynamically rendered D3.js force map.
+                Visualize your cluster's node health at a glance with intuitive
+                color coding on a dynamically rendered D3.js vector graph.
               </p>
             </div>
             <img src={azuress} alt="Connect Prompt Screen Shot" />
@@ -102,8 +102,7 @@ const NavBarAndContent = () => {
             <div>
               <h2 className="feature-header-text">Identify Pods</h2>
               <p className="contentText">
-                Click on a node to view its kubelet health metrics and pods
-                list.
+                By clicking on a node, Asclepius provides robust health metrics by executing a CLI interaction with kubelet in the backend, saving you time and helping you understand load immediately.
               </p>
             </div>
           </div>
