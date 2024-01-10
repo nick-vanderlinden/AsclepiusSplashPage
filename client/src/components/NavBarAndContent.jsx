@@ -121,6 +121,16 @@ const NavBarAndContent = () => {
               Github!
             </a>
           </p>
+          <p className="contentText" id="getStartedText2">We've also posted a short article on&nbsp;
+          <a
+              href="medium.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#00BFFF" }}
+            >
+              Medium.
+            </a>
+          </p>
           {/* Content*/}
         </div>
 
