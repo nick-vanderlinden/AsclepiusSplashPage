@@ -44,6 +44,13 @@ const NavBarAndContent = () => {
           Features
         </a>
         <a
+          href='#getStarted'
+          className='toolbarText'
+          onClick={() => scrollToSection('getStartedDiv')}
+        >
+          Get Started
+        </a>
+        <a
           href='#team'
           className='toolbarText'
           onClick={() => scrollToSection('teamDiv')}
@@ -53,6 +60,7 @@ const NavBarAndContent = () => {
       </nav>
       <div id='content'>
         <div id='homeDiv'></div>
+
         <div id='aboutDiv'>
           <h2 className='headerText'>About</h2>
           <p className='contentText'>
@@ -62,6 +70,7 @@ const NavBarAndContent = () => {
           </p>
           {/* Content*/}
         </div>
+
         <div id='featuresDiv'>
           <h2 className='headerText'>Features</h2>
           <div class='feature-item'>
@@ -99,6 +108,22 @@ const NavBarAndContent = () => {
           </div>
         </div>
 
+        <div id='getStartedDiv'>
+          <h2 className='headerText'>How To Get Started:</h2>
+          <p className='contentText' id='getStartedText'>
+            To get started with Asclepius, check out our repo on&nbsp;
+            <a
+              href='https://github.com/oslabs-beta/Asclepius'
+              target='_blank'
+              rel='noopener noreferrer'
+              style={{ color: '#00BFFF' }}
+            >
+              Github!
+            </a>
+          </p>
+          {/* Content*/}
+        </div>
+
         <div id='teamDiv'>
           <h2 className='headerText'>Meet the Team:</h2>
           <div className='teamMembers'>
@@ -108,8 +133,20 @@ const NavBarAndContent = () => {
                 <img src={john} alt='John Picture' />
               </div>
               <div className='linkIcons'>
-                <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
-                <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                <a
+                  href='https://www.linkedin.com/in/johnwsnorlin/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
+                </a>
+                <a
+                  href='https://github.com/johnnorlin'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                </a>
               </div>
             </div>
 
@@ -119,8 +156,20 @@ const NavBarAndContent = () => {
                 <img src={nick} alt='Nick Picture' />
               </div>
               <div className='linkIcons'>
-                <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
-                <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                <a
+                  href='https://www.linkedin.com/in/nick-vanderlinden-36329b14a/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
+                </a>
+                <a
+                  href='https://github.com/nick-vanderlinden'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                </a>
               </div>
             </div>
 
@@ -130,8 +179,20 @@ const NavBarAndContent = () => {
                 <img src={hugh} alt='Hugh Picture' />
               </div>
               <div className='linkIcons'>
-                <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
-                <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                <a
+                  href='https://www.linkedin.com/in/hugh-stapleton-92b44558/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
+                </a>
+                <a
+                  href='https://github.com/tackleshaft'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                </a>
               </div>
             </div>
 
@@ -141,8 +202,20 @@ const NavBarAndContent = () => {
                 <img src={cam} alt='Cam Picture' />
               </div>
               <div className='linkIcons'>
-                <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
-                <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                <a
+                  href='https://www.linkedin.com/in/cameron-blair-a2aa60259/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
+                </a>
+                <a
+                  href='https://github.com/CamB975'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                </a>
               </div>
             </div>
 
@@ -152,8 +225,20 @@ const NavBarAndContent = () => {
                 <img src={kola} alt='Kola Picture' />
               </div>
               <div className='linkIcons'>
-                <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
-                <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                <a
+                  href='https://www.linkedin.com/in/kola-b-023383171/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={linkedinlogo} alt='Linkedin/ GitHub icons' />
+                </a>
+                <a
+                  href='https://github.com/kbamgbosee'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={githublogo} alt='Linkedin/ GitHub icons' />
+                </a>
               </div>
             </div>
           </div>
