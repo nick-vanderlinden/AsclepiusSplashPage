@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Play:wght@400;700&display=swap');
 
 #titleDiv {
-  flex: display;
-  justify-content: center;
-  align-items: center;
-}
-
-#aboutDiv {
-  flex: display;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -31,7 +25,6 @@
 
 .toolbar {
   display: flex;
-  font-family: 'Montserrat';
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -48,8 +41,8 @@
   font-family: 'Play', sans-serif;
   font-size: 20px;
   color: white;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .content {
@@ -71,6 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 120px;
 }
 
 .contentText {
@@ -152,4 +146,8 @@
 
 .getStartedText {
   font-size: 35px;
+}
+
+#aboutText {
+  margin-top: 60px;
 }

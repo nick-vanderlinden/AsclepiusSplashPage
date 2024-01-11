@@ -1,5 +1,4 @@
 import React from 'react';
-import asclepiuslogo from '../Assets/asclepiuslogo.png';
 
 const Title = () => {
   return (

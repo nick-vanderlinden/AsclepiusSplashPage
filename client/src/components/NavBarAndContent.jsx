@@ -44,6 +44,14 @@ const NavBarAndContent = () => {
           Features
         </a>
         <a
+          href='https://github.com/oslabs-beta/Asclepius'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='toolbarText'
+        >
+          Github Repo
+        </a>
+        <a
           href='#getStarted'
           className='toolbarText'
           onClick={() => scrollToSection('getStartedDiv')}
@@ -62,11 +70,13 @@ const NavBarAndContent = () => {
         <div id='homeDiv'></div>
 
         <div id='aboutDiv'>
-          <h2 className='headerText'>About</h2>
+          <h2 id='aboutText' className='headerText'>
+            About
+          </h2>
           <p className='contentText'>
             Asclepius is a Kubernetes node health monitoring service for local
             or deployed K8s clusters, providing real time information on your
-            nodes
+            nodes.
           </p>
           {/* Content*/}
         </div>
