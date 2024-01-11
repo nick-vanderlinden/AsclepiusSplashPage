@@ -90,7 +90,7 @@
 .feature-item img {
   margin-right: 20px;
   margin-left: 20px;
-  width: 400px;
+  width: 640px;
   height: 300px;
 }
 
@@ -150,14 +150,14 @@
   transform: scale(1.2);
 }
 
-.getStartedText {
+#getStartedText {
+  font-size: 35px;
+}
+
+#getStartedText2 {
   font-size: 35px;
 }
 
 #aboutText {
   margin-top: 60px;
-}
-
-#getStartedText2 {
-  font-size: 35px;
 }
